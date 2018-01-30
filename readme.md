@@ -13,7 +13,7 @@ Jan 30, 2018: Initial version. Written entirely through vim!
 ## How to use
 1. Run through python
 
-On linux, this is ``python3 formatter.py`` 
+On linux, this is ``python formatter.py`` 
 
 On Windows, 
 * Open through IDLE 
@@ -24,7 +24,7 @@ OR
 
 Mac is similiar to Linux I believe, feel free to test and correct.  
 
-2. Follow the instructions: Type the source filename, then the new filename. The extension must be included in both. The input file must also be in the same directory, and the names MUST be typed in quotes.  
+2. Follow the instructions: Type the source filename, then the new filename. The extension must be included in both. The input file must also be in the same directory as the python program.   
 
 ## Known Issues
 > Cannot handle complex Telegram messages (Replies, Fowards, Images, etc. )

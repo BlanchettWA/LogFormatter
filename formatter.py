@@ -1,14 +1,44 @@
 #A quick and simple program to make Telegram logs look more streamline
 
 #Started Jan 29,2018, written by Blanchettwa
-#Designed for Python 3.4+
+
 
 
 #Firstly, get the right file.
-filename = input("Please name the filename to format, (eg.\" text.txt)\": " )
-outfn = input("Please name the file to output (eg,\" out.txt)\": ") 
+try:
+
+    #Import the system so that the python version can be checked. This is for the input used later. 
+    import sys
+
+    #Now get the version, it will be a string
+
+    verString = sys.version
+
+    #Split the string by spaces to isolate the version number
+    verArray = verString.split()
+
+    #The first item is what is needed. Only the first four characters are needed as well 
+    versionString = verArray[0][0:3]
+
+    #Convert the string into a float so it can be compared and used. 
+    ver = float(versionString)
+    
+except VersionError: 
+    print ("Error determining Python version")
 
 try:
+    if (ver > 3.0):
+        filename = input("Please name the filename to format, (eg, text.txt): " )
+        outfn = input("Please name the file to output (eg, out.txt): ") 
+    else:
+        filename = raw_input("Please name the filename to format (eg. text.txt): ")
+        outfn = raw_input("Please name the file to output (eg. out.txt): ") 
+
+except FileError:
+    print ("Error loading files")
+
+try:
+
     oldLog = open(filename)
     newLog = open(outfn,"w+")
 
@@ -65,5 +95,5 @@ try:
     oldLog.close()
     newLog.close()
 
-except:
+except OperationError:
     print ("Encountered errors")
