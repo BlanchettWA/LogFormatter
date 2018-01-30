@@ -14,7 +14,7 @@ Jan 30, 2018: Initial version. Written entirely through vim!
 
 On linux, this is ``python3 formatter.py`` 
 
-On Windows, open through IDLE or add python to the path, then run with ''python formatter.py''
+On Windows, open through IDLE or add python to the path, then run with ``python formatter.py``
 
 Mac is similiar to Linux I believe, feel free to test and correct.  
 
