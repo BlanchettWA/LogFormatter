@@ -7,7 +7,7 @@
 Jan 30, 2018: Initial version. Written entirely through vim! 
 
 ## Requirements
-* Python 3
+* Python
 
 ## How to use
 1. Run through python 3.
@@ -17,6 +17,9 @@ The steps are similar on Windows and Mac, but more detailed instructions soon
 
 2. Follow the instructions: Type the source filename, then the new filename. The extension must be included in both. The input file must also be in the same directory. 
 
+## Known Issues
+> Cannot handle complex Telegram messages (Replies, Fowards, Images, etc. )
+> Not user friendly 
 
 
 
