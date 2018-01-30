@@ -5,8 +5,8 @@
 
 
 #Firstly, get the right file.
-filename = input("Please name the filename to format, (eg. text.txt): " )
-outfn = input("Please name the file to output (eg, out.txt): ") 
+filename = input("Please name the filename to format, (eg.\" text.txt)\": " )
+outfn = input("Please name the file to output (eg,\" out.txt)\": ") 
 
 try:
     oldLog = open(filename)
