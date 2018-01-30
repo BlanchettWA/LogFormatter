@@ -1,3 +1,4 @@
+
 # LogFormatter
 
 *A quick project to experiment with python input/outputs, while also reformatting Telegram logs to be more streamline* 
@@ -14,7 +15,12 @@ Jan 30, 2018: Initial version. Written entirely through vim!
 
 On linux, this is ``python3 formatter.py`` 
 
-On Windows, open through IDLE or add python to the path, then run with ``python formatter.py``
+On Windows, 
+* Open through IDLE 
+
+OR 
+
+* [Add python to the path](https://superuser.com/questions/143119/how-do-i-add-python-to-the-windows-path), then run with ``python formatter.py``
 
 Mac is similiar to Linux I believe, feel free to test and correct.  
 
